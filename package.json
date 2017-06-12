@@ -1,5 +1,5 @@
 {
-  "title": "HGT",
+  "title": "ENS",
   "author": "Elliot Cheung",
   "scripts": {
     "start": "node server.js"

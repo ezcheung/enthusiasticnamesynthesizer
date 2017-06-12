@@ -8,7 +8,7 @@ var App = module.exports;
 App.controller = function(){
   var ctrl = this;
 
-  ctrl.hgt = "Hannah Grace Taylor";
+  ctrl.hgt = "Emmy Noether Society";
 
   ctrl.generate = function() {
     return m.request({method: "GET", url: "/randomhgt"})
@@ -24,7 +24,7 @@ App.view = function(ctrl){
         m('div', {class: 'inner'}, [
           m('h1', ctrl.hgt),
           m('div'),
-          m('button', {onclick: ctrl.generate}, "Hastily Generate Term"),
+          m('button', {onclick: ctrl.generate}, "Enthusiastically Name Synthesize"),
         ])
       ])
     ])
